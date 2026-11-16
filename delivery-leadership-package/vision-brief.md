@@ -34,7 +34,7 @@ we keep, and it is still there when they come back.
 | What the page shows | What the service stores |
 |---|---|
 | ![Client sample data](gap_images/client_seed.png) | ![API seeded quotes](gap_images/api_seed.png) |
-| ![Quote saved in the page](gap_images/UI_New_Quote.png) | ![After reload: quote gone](gap_images/UI_default_Quote.png) |
+| ![Quote saved in the page](gap_images/UI_New_Quote.png) | ![After reload: quote gone](gap_images/UI_default_Quotes.png) |
 
 ## What does "good" look like at end of the week?
 
