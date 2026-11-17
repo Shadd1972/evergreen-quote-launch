@@ -1,6 +1,47 @@
-# Task List (Reference Shape)
+# Task List: Evergreen Quote Launch
 
-> The real task list lives on your GitHub Project board. This file is the **shape**: what each issue should look like before it leaves your hands. Link to the board from `vision-brief.md`.
+**Board:** [Evergreen Quote Launch](https://github.com/users/Shadd1972/projects/6) (GitHub Project, linked from `vision-brief.md`)
+**Repo:** [Shadd1972/evergreen-quote-launch](https://github.com/Shadd1972/evergreen-quote-launch)
+**Owner:** Shadd Schutte, Delivery Lead
+**Last updated:** 11-17-2026
+
+> The live task list is the GitHub Project board above; this file records how
+> the work is organized and what every issue must contain before it is
+> considered ready. When the board and this file disagree, the board wins.
+
+## How the board works
+
+| Column | Meaning |
+|---|---|
+| To Do | Ready to start: done criteria written, priority set |
+| In Progress | Being worked today; no more than two at a time |
+| Done | Every done-criteria box is checked and the evidence (screenshot, CI link, or PR) is in an issue comment |
+| Deferred / Post-launch | Deliberately not this week; each card says why and who owns it next |
+
+## Priorities
+
+| Priority | Meaning |
+|---|---|
+| P0 | Required for Friday's launch; the delivery goal fails without it |
+| P1 | Expected this week, but the launch can still go ahead without it |
+| P2 | Stretch; only after every P0 is Done |
+
+## Area labels
+
+`WIRE` client-to-API connection · `TYPES` contracts and the type-check ·
+`DATA` stub retirement · `CONFIG` launch values · `GRAPHQL` partner API ·
+`DOCKER` container image · `K8S` local cluster · `CI` pipeline ·
+`BUILD` production build · `REVIEW` PR and merge · `SHOWCASE` Friday demo ·
+`AI` Copilot oversight · `ROUTED` / `DEFERRED` decisions from injects
+
+## Changes since Monday
+
+- **Inject #1 (Tuesday):** added `[ROUTED] Request: quote form defaults to life`
+  (owned by the front-end team) and `[DEFERRED] Renters coverage (post-launch)`.
+  Both are in Deferred / Post-launch; the delivery goal did not change.
+- **Inject #2 (Wednesday):** <note any board change, e.g. a comment on [K8S]
+  recording that the shared demo environment incident was routed to the
+  platform team>.
 
 ## Issue template
 
@@ -21,7 +62,7 @@ Linked decisions / risks
 - (links to decision memos or risk-register rows if applicable)
 ```
 
-## Suggested starter tasks (you may add, split, or drop)
+## Initial Task List - For complete list use GitHub
 
 | # | Title | Area | Priority |
 |---|---|---|---|
