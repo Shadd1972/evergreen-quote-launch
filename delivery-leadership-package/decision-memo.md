@@ -1,29 +1,32 @@
-# Decision Memo: _short title here_
-
-> Copy to `delivery-leadership-package/decision-memo.md`. Target length: ~250 words. Write for a non-technical reader. Name the options you **rejected**, not just the one you picked.
-
-**Date:**
-**Author:** _your name_
-**Decision area:** _e.g., Day 2 scope tradeoff_
-
+# Decision Memo: Where the price is calculated
+ 
+**Date:** Tue 11-17-2026  
+**Author:** Shadd Schutte      
+**Decision area:** Day 2 pricing consistency
+ 
 ## Context
-
-_What was the situation that forced a choice? 2–3 sentences._
-
+When the quote page and the quote service were connected, the same
+inputs showed $425 on screen but saved at $450. Each half calculates
+the price itself, using different rate tables.
+ 
 ## Options considered
-
-1. **Option A: _name_.** _Pros / cons in plain English._
-2. **Option B: _name_.** _Pros / cons._
-3. **Option C: _name_.** _Pros / cons._ (Optional.)
-
+1. Keep both calculations, align the rates. Instant estimates, no
+   extra waiting; but two copies can drift again.
+2. Every estimate asks the service. One source of truth; but each
+   keystroke waits on the network, and the estimate fails if the
+   service is down.
+3. Show no estimate until saved. Simplest; but removes the instant
+   number customers come for.
+ 
 ## Recommendation
-
-_Which option. One paragraph._
-
+Option 1 for launch: align the client's rates to the service's
+(the sponsor's rule: the server is the source of truth), and log
+the duplication as a tracked risk.
+ 
 ## Why
-
-_The single most important reason, named in customer or business terms, not technical ones._
-
+Customers came for an instant, believable number. Option 1 keeps it
+instant and makes it agree with what we store.
+ 
 ## What would change my mind
-
-_If X happened by Y date, I would revisit this._
+If rates must change more than once a quarter, or a second mismatch
+appears before launch, I would move to Option 2 next release.
