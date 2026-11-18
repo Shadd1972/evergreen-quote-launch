@@ -2,10 +2,10 @@
 
 | | |
 |---|---|
-| **To** | <manager's name>, reported the issue during the pre-launch dry run |
+| **To** | Reporting manager, reported the issue during the pre-launch dry run |
 | **From** |Shadd Schutte, Delivery Lead |
 | **Date / time** | Wednesday 11-18-2026, 14:30 EST |
-| **Channel** | <Teams / Slack / email> |
+| **Channel** | Email |
 | **Subject** | Re: "Could not load recent quotes" in the demo environment |
 
 ## Message
