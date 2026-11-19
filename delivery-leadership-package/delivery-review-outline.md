@@ -14,11 +14,11 @@
 | Done criterion | Evidence |
 |---|---|
 | Quotes load from the API; a saved quote survives a reload | ![Main verified](screenshots/d4-06-main-verified.png) |
-| Estimate and saved premium agree at launch rates ($450 = $450) | `screenshots/d2-06-rates-aligned.png` |
-| `npm test` 7 of 7; client type-check and build pass | `screenshots/d4-02-test-7-passing.png`, `screenshots/d4-01-production-preview.png` |
-| Container `evergreen-quote-api:2.0` as 3 pods behind one Service | `screenshots/d3-03-pods-running.png` |
-| Landing banner set; links open the app | `screenshots/d2-08-landing-launch.png` |
-| Reviewed PR merged; CI green on the merge commit | `screenshots/d4-05a-pr-merged.png`, `screenshots/d4-05b-ci-green-main.png` |
+| Estimate and saved premium agree at launch rates ($450 = $450) | ![Rates aligned](screenshots/d2-06-rates-aligned.png) |
+| `npm test` 7 of 7; client type-check and build pass | ![7 tests passing](screenshots/d4-02-test-7-passing.png) ![Production preview](screenshots/d4-01-production-preview.png) |
+| Container `evergreen-quote-api:2.0` as 3 pods behind one Service | ![Pods running](screenshots/d3-03-pods-running.png) |
+| Landing banner set; links open the app | ![Landing page](screenshots/d2-08-landing-launch.png) |
+| Reviewed PR merged; CI green on the merge commit | ![PR merged](screenshots/d4-05a-pr-merged.png) ![CI green on main](screenshots/d4-05b-ci-green-main.png) |
 | `delivery-leadership-package/` complete and committed | This folder, on `main` |
 
 ## Slide 2: What shipped
